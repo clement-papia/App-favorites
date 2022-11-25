@@ -1,0 +1,52 @@
+/* Css Global */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    font-size: 62%;
+}
+h1{
+    font-size: 2.6rem;
+}
+
+/* Head */
+.main-head{
+    background-color: darkgray;
+    color: red;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#logo{
+    text-align: center;
+}
+/* Main */
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/fond.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;  
+}
+nav img{
+    width: 150px;
+    height: 150px;
+    margin-top: 160%;
+}
+/* Footer */
+.main_footer{
+    background-color: darkgray;
+}
+p{
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+}
